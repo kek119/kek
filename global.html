@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOOK</title>
+    <style>
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; 
+        }
+
+        header {
+            background-color: #007bff; 
+            padding: 20px; 
+            color: white; 
+        }
+
+        h1 {
+            text-align: center; 
+            font-size: 2.5em; 
+        }
+
+        nav ul {
+            list-style: none; 
+            display: flex; 
+            justify-content: center; 
+        }
+
+        nav li {
+            margin-right: 15px; 
+        }
+
+        nav a {
+            color: white; 
+            text-decoration: none; 
+            font-weight: bold; 
+            padding: 10px; 
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #0056b3; 
+            border-radius: 5px;
+        }
+        
+        .product-list {
+            margin: 20px auto; 
+            padding: 20px;
+            background-color: white; 
+            border: 1px solid #ccc; 
+            max-width: 800px; 
+            border-radius: 10px; 
+        }
+
+       
+        .button {
+            display: inline-block; 
+            padding: 10px 20px;
+            background-color: #28a745; 
+            color: white; 
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #218838; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HOOK</h1>
+        <nav>
+            <ul>
+                <li><a href="kek.html">Головна сторінка</a></li>
+                <li><a href="catalog">Каталог товарів</a></li>
+                <li><a href="basket.html">Кошик</a></li>
+                <li><a href="contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="product-list">
+        <a href="catalog.html" class="button">Переглянути каталог</a>
+    </section>
+</body>
+</html>
+
